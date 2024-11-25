@@ -1,4 +1,4 @@
-ariable "project_name" {
+variable "project_name" {
   description = "webservice infra migration to aws"
   type        = string
   default     = "my_project"
