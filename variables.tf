@@ -30,3 +30,17 @@ variable "key_pair_name" {
   type        = string
 }
 
+variable "availability_zones" {
+  description = "List of Availability Zones"
+  type        = list(string)
+}
+
+variable "route53_zone_id" {
+  description = "ID of the Route 53 hosted zone"
+  type        = string
+}
+
+variable "record_name" {
+  description = "Name of the DNS record"
+  type        = string
+}
